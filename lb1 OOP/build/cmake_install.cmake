@@ -1,4 +1,4 @@
-# Install script for directory: /home/awes0me/Documents/study/lb1 OOP
+# Install script for directory: /home/awes0me/Documents/study/oop_game/lb1 OOP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/awes0me/Documents/study/lb1 OOP/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/awes0me/Documents/study/oop_game/lb1 OOP/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

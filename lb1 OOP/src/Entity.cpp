@@ -44,16 +44,23 @@ void Entity::move(const std::string& direction, Gamefield* gf){
     x_pos = new_x;
     y_pos = new_y;
     target->set_occupied(true);
+    target->set_occupied_by(this);
+    syncSprite();
 
     std::cout << "Entity moved to (" << x_pos << ", " << y_pos << ").\n";
 }
 
-void Entity::get_damaged(int dmg) {
-    hp -= dmg;
-    if (hp < 0) hp = 0;
-}
+void Entity::get_damaged(int dmg){
+        hp -= dmg;
+        if (hp <= 0) {
+            hp = 0;
+            onDeath();
+        }
+    }
+    
 
 
 void Entity::syncSprite() {
     sprite.setPosition(x_pos * CELL_SIZE, y_pos * CELL_SIZE);
 }
+

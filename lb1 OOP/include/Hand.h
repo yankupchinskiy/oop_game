@@ -14,5 +14,7 @@ class Hand{
     Hand();
     void add_random_spell();
     std::shared_ptr<Spell> get_spell();
+    std::stack<std::shared_ptr<Spell>>& get_all_spells() { return spells; }
+
 
 };

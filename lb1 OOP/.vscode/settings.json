@@ -105,6 +105,8 @@
     "cstring": "cpp",
     "map": "cpp",
     "set": "cpp",
-    "cinttypes": "cpp"
+    "cinttypes": "cpp",
+    "unordered_set": "cpp",
+    "fstream": "cpp"
   }
 }

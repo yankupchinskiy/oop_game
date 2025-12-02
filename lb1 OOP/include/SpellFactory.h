@@ -7,6 +7,7 @@
 #include "Trap.h"
 
 
+
 class SpellFactory {
 public:
     static std::shared_ptr<Spell> createRandomSpell() {

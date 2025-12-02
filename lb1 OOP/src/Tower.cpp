@@ -18,8 +18,6 @@ TeslaTower::TeslaTower(int hp, int dmg, int x, int y, int range){
     float scaleY = static_cast<float>(CELL_SIZE) / this->texture.getSize().y;
     
     this->sprite.setTexture(texture);
-    std::cout << "scaleX=" << scaleX << " scaleY=" << scaleY << "\n";
-
     this->sprite.setScale(scaleX,scaleY);
     
     syncSprite();
@@ -78,23 +76,80 @@ void TeslaTower::move(const std::string& direction, Gamefield* gf) {
 
 
 
-void TeslaTower::attack(Gamefield *gf){
-    for (int dx = -range; dx <= range; ++dx) {
-        for (int dy = -range; dy <= range; ++dy) {
-            if (abs(dx) + abs(dy) <= range) {
-                Cell* target = gf->getCell(x_pos + dx, y_pos + dy);
-                if (target && target->is_occupied()) {
-                    Entity* entity = target->is_occupied_by();
-                    Player* player = dynamic_cast<Player*>(entity);
-                    if (player) {
-                        this->cast_spell(gf);
-                        return;
-                    }
-                }
+void TeslaTower::attack(Gamefield* gf)
+{
+    attackCooldown++;
+
+    if (attackCooldown < 2)
+        return;
+
+    attackCooldown = 0; 
+
+    int tx = getX();
+    int ty = getY();
+
+    std::unordered_set<void*> alreadyHit;
+
+    std::cout << "[TOWER] Tower at (" << tx << "," << ty << ") fires. damage=" << this->getDamage() << "\n";
+
+    attackLine(tx, ty,  0, -1, gf, alreadyHit);
+    attackLine(tx, ty,  0,  1, gf, alreadyHit);
+    attackLine(tx, ty, -1, 0, gf, alreadyHit); 
+    attackLine(tx, ty,  1, 0, gf, alreadyHit); 
+}
+
+void TeslaTower::attackLine(int x, int y, int dx, int dy, Gamefield* gf, std::unordered_set<void*>& alreadyHit){
+    int cx = x;
+    int cy = y;
+
+    for (int i = 1; i <= range; i++) {
+        cx += dx;
+        cy += dy;
+
+        Cell* c = gf->getCell(cx, cy);
+        if (!c) {
+            std::cout << "[TOWER] beam stopped at ("<<cx<<","<<cy<<") - out of bounds\n";
+            break;
+        }
+        if (!c->is_passable()) {
+            std::cout << "[TOWER] beam stopped at ("<<cx<<","<<cy<<") - blocked\n";
+            break;
+        }
+
+        if (c->is_occupied()) {
+            Entity* ent = c->is_occupied_by();
+            std::cout << "[TOWER] beam hits occupied cell ("<<cx<<","<<cy<<") ent="<<ent<<"\n";
+
+            if (!ent) {
+                std::cout << "[TOWER] WARNING: occupied_by == nullptr, clearing flag\n";
+                c->set_occupied(false);
+                continue;
+            }
+
+            if (alreadyHit.find((void*)ent) != alreadyHit.end()) {
+                std::cout << "[TOWER] already hit this entity, skipping\n";
+                continue;
+            }
+
+            alreadyHit.insert((void*)ent);
+
+            int dmg = this->getDamage();
+            std::cout << "[TOWER] dealing " << dmg << " damage to entity at ("<<cx<<","<<cy<<")\n";
+            ent->get_damaged(dmg);
+
+            std::cout << "[TOWER] entity HP now " << ent->getHP() << "\n";
+
+            if (!ent->isAlive()) {
+                c->set_occupied(false);
+                c->set_occupied_by(nullptr);
+                std::cout << "[TOWER] entity died at ("<<cx<<","<<cy<<"), cell cleared\n";
             }
         }
     }
 }
+
+
+
 
 
 void TeslaTower::cast_spell( Gamefield *gf){

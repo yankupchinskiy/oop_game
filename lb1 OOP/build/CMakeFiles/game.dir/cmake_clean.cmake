@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/game.dir/src/Lightning_bolt.cpp.o.d"
   "CMakeFiles/game.dir/src/Player.cpp.o"
   "CMakeFiles/game.dir/src/Player.cpp.o.d"
+  "CMakeFiles/game.dir/src/SaveSystem.cpp.o"
+  "CMakeFiles/game.dir/src/SaveSystem.cpp.o.d"
   "CMakeFiles/game.dir/src/Tower.cpp.o"
   "CMakeFiles/game.dir/src/Tower.cpp.o.d"
   "CMakeFiles/game.dir/src/Trap.cpp.o"

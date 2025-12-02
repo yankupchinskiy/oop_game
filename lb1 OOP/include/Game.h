@@ -10,43 +10,75 @@
 #include "Player.h"
 #include "Cell.h"
 #include "Tower.h"
+#include "SaveSystem.h"
 
+class Game {
+private:
+    // States
+    enum class TurnState { PLAYER, ENEMY, EN_TOWER };
+    enum class GameState { MENU, IN_GAME, PAUSED, GAME_OVER, LEVEL_COMPLETE };
 
-class Game{
-    private:
-    //variables
-
-    //window
+    // Window
     sf::RenderWindow* window;
     sf::VideoMode videoMode;
     sf::Event ev;
 
-    //game objects
-    sf::Sprite sprite;
-    sf::Texture texture;
+    // Game objects
     Gamefield gamefield;
     const int cellSize = CELL_SIZE;
 
-    Player player;                  
-    std::vector<std::unique_ptr<Enemy>> enemies;  
-      
-    //Privare functions
+    GameState state;
+    TurnState turn;
+
+    Player player;
+    std::vector<std::unique_ptr<Enemy>> enemies;
+    std::vector<std::unique_ptr<TeslaTower>> towers;
+
+    bool playerDeathHandled = false;
+
+
+    // Level management
+    int currentLevel = 1;    
+    int roundCounter = 0;
+
+    // Initialization
     void initVariables();
     void initWindow();
-    void initEntities();
+    void initEntities(int level);   
 
+    // Turn handlers
+    void updateTurn();
+    void handleEnemies();
+    void handleTowers();
+    void handlePlayerDeath();
 
-    public:
-    // Constructors and Destructors
-    
-    Game(int width, int length);
+    // State checks
+    bool checkVictory();          
+
+    // Victory and next level
+    void handleLevelComplete();    
+    void nextLevel();
+
+    // States and screens
+    void showMainMenu();
+    void handleGameOver();
+    void startNewGame();
+
+    // Saving
+    void SaveGame(const std::string& filename);
+    void LoadGame(const std::string& filename);
+
+    // Helpers
+    bool isAdjacent(int ax, int ay, int bx, int by);
+
+public:
+    // Constructors
     Game();
-    virtual ~Game();
+    Game(int width, int length);
+    ~Game();
 
-    //accessors
+    // Main loop
     const bool running() const;
-
-    //functions
     void update();
     void render();
     void PollEvents();

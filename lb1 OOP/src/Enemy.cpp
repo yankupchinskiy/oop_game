@@ -15,9 +15,9 @@ Enemy::Enemy(int hp, int dmg, int x, int y) {
     float scaleY = static_cast<float>(CELL_SIZE) / this->texture.getSize().y;
     
     this->sprite.setTexture(texture);
-    std::cout << "scaleX=" << scaleX << " scaleY=" << scaleY << "\n";
-
     this->sprite.setScale(scaleX,scaleY);
+
+    
     
     syncSprite();
 }

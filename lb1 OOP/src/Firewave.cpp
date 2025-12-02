@@ -1,7 +1,7 @@
 #include "../include/Firewave.h"
 
 void Firewave::cast(std::string direction, Gamefield* gf, int pl_X, int pl_Y) {
-    int radius = 1;
+    int radius = 3;
 
     for (int dx = -radius; dx <= radius; ++dx) {
         for (int dy = -radius; dy <= radius; ++dy) {

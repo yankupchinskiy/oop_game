@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/awes0me/Documents/study/lb1 OOP"
+CMAKE_SOURCE_DIR = "/home/awes0me/Documents/study/oop_game/lb1 OOP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/awes0me/Documents/study/lb1 OOP/build"
+CMAKE_BINARY_DIR = "/home/awes0me/Documents/study/oop_game/lb1 OOP/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game.dir/depend.make
@@ -70,172 +70,186 @@ include CMakeFiles/game.dir/progress.make
 include CMakeFiles/game.dir/flags.make
 
 CMakeFiles/game.dir/src/Cell.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Cell.cpp.o: /home/awes0me/Documents/study/lb1\ OOP/src/Cell.cpp
+CMakeFiles/game.dir/src/Cell.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Cell.cpp
 CMakeFiles/game.dir/src/Cell.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/Cell.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Cell.cpp.o -MF CMakeFiles/game.dir/src/Cell.cpp.o.d -o CMakeFiles/game.dir/src/Cell.cpp.o -c "/home/awes0me/Documents/study/lb1 OOP/src/Cell.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/Cell.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Cell.cpp.o -MF CMakeFiles/game.dir/src/Cell.cpp.o.d -o CMakeFiles/game.dir/src/Cell.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Cell.cpp"
 
 CMakeFiles/game.dir/src/Cell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Cell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/lb1 OOP/src/Cell.cpp" > CMakeFiles/game.dir/src/Cell.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Cell.cpp" > CMakeFiles/game.dir/src/Cell.cpp.i
 
 CMakeFiles/game.dir/src/Cell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Cell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/lb1 OOP/src/Cell.cpp" -o CMakeFiles/game.dir/src/Cell.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Cell.cpp" -o CMakeFiles/game.dir/src/Cell.cpp.s
 
 CMakeFiles/game.dir/src/Enemy.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Enemy.cpp.o: /home/awes0me/Documents/study/lb1\ OOP/src/Enemy.cpp
+CMakeFiles/game.dir/src/Enemy.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Enemy.cpp
 CMakeFiles/game.dir/src/Enemy.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/Enemy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Enemy.cpp.o -MF CMakeFiles/game.dir/src/Enemy.cpp.o.d -o CMakeFiles/game.dir/src/Enemy.cpp.o -c "/home/awes0me/Documents/study/lb1 OOP/src/Enemy.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/Enemy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Enemy.cpp.o -MF CMakeFiles/game.dir/src/Enemy.cpp.o.d -o CMakeFiles/game.dir/src/Enemy.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Enemy.cpp"
 
 CMakeFiles/game.dir/src/Enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Enemy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/lb1 OOP/src/Enemy.cpp" > CMakeFiles/game.dir/src/Enemy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Enemy.cpp" > CMakeFiles/game.dir/src/Enemy.cpp.i
 
 CMakeFiles/game.dir/src/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Enemy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/lb1 OOP/src/Enemy.cpp" -o CMakeFiles/game.dir/src/Enemy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Enemy.cpp" -o CMakeFiles/game.dir/src/Enemy.cpp.s
 
 CMakeFiles/game.dir/src/Entity.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Entity.cpp.o: /home/awes0me/Documents/study/lb1\ OOP/src/Entity.cpp
+CMakeFiles/game.dir/src/Entity.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Entity.cpp
 CMakeFiles/game.dir/src/Entity.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/Entity.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Entity.cpp.o -MF CMakeFiles/game.dir/src/Entity.cpp.o.d -o CMakeFiles/game.dir/src/Entity.cpp.o -c "/home/awes0me/Documents/study/lb1 OOP/src/Entity.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/Entity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Entity.cpp.o -MF CMakeFiles/game.dir/src/Entity.cpp.o.d -o CMakeFiles/game.dir/src/Entity.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Entity.cpp"
 
 CMakeFiles/game.dir/src/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Entity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/lb1 OOP/src/Entity.cpp" > CMakeFiles/game.dir/src/Entity.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Entity.cpp" > CMakeFiles/game.dir/src/Entity.cpp.i
 
 CMakeFiles/game.dir/src/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Entity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/lb1 OOP/src/Entity.cpp" -o CMakeFiles/game.dir/src/Entity.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Entity.cpp" -o CMakeFiles/game.dir/src/Entity.cpp.s
 
 CMakeFiles/game.dir/src/Firewave.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Firewave.cpp.o: /home/awes0me/Documents/study/lb1\ OOP/src/Firewave.cpp
+CMakeFiles/game.dir/src/Firewave.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Firewave.cpp
 CMakeFiles/game.dir/src/Firewave.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/Firewave.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Firewave.cpp.o -MF CMakeFiles/game.dir/src/Firewave.cpp.o.d -o CMakeFiles/game.dir/src/Firewave.cpp.o -c "/home/awes0me/Documents/study/lb1 OOP/src/Firewave.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/Firewave.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Firewave.cpp.o -MF CMakeFiles/game.dir/src/Firewave.cpp.o.d -o CMakeFiles/game.dir/src/Firewave.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Firewave.cpp"
 
 CMakeFiles/game.dir/src/Firewave.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Firewave.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/lb1 OOP/src/Firewave.cpp" > CMakeFiles/game.dir/src/Firewave.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Firewave.cpp" > CMakeFiles/game.dir/src/Firewave.cpp.i
 
 CMakeFiles/game.dir/src/Firewave.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Firewave.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/lb1 OOP/src/Firewave.cpp" -o CMakeFiles/game.dir/src/Firewave.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Firewave.cpp" -o CMakeFiles/game.dir/src/Firewave.cpp.s
 
 CMakeFiles/game.dir/src/Game.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Game.cpp.o: /home/awes0me/Documents/study/lb1\ OOP/src/Game.cpp
+CMakeFiles/game.dir/src/Game.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Game.cpp
 CMakeFiles/game.dir/src/Game.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Game.cpp.o -MF CMakeFiles/game.dir/src/Game.cpp.o.d -o CMakeFiles/game.dir/src/Game.cpp.o -c "/home/awes0me/Documents/study/lb1 OOP/src/Game.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Game.cpp.o -MF CMakeFiles/game.dir/src/Game.cpp.o.d -o CMakeFiles/game.dir/src/Game.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Game.cpp"
 
 CMakeFiles/game.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/lb1 OOP/src/Game.cpp" > CMakeFiles/game.dir/src/Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Game.cpp" > CMakeFiles/game.dir/src/Game.cpp.i
 
 CMakeFiles/game.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/lb1 OOP/src/Game.cpp" -o CMakeFiles/game.dir/src/Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Game.cpp" -o CMakeFiles/game.dir/src/Game.cpp.s
 
 CMakeFiles/game.dir/src/Gamefield.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Gamefield.cpp.o: /home/awes0me/Documents/study/lb1\ OOP/src/Gamefield.cpp
+CMakeFiles/game.dir/src/Gamefield.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Gamefield.cpp
 CMakeFiles/game.dir/src/Gamefield.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/Gamefield.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Gamefield.cpp.o -MF CMakeFiles/game.dir/src/Gamefield.cpp.o.d -o CMakeFiles/game.dir/src/Gamefield.cpp.o -c "/home/awes0me/Documents/study/lb1 OOP/src/Gamefield.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/Gamefield.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Gamefield.cpp.o -MF CMakeFiles/game.dir/src/Gamefield.cpp.o.d -o CMakeFiles/game.dir/src/Gamefield.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Gamefield.cpp"
 
 CMakeFiles/game.dir/src/Gamefield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Gamefield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/lb1 OOP/src/Gamefield.cpp" > CMakeFiles/game.dir/src/Gamefield.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Gamefield.cpp" > CMakeFiles/game.dir/src/Gamefield.cpp.i
 
 CMakeFiles/game.dir/src/Gamefield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Gamefield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/lb1 OOP/src/Gamefield.cpp" -o CMakeFiles/game.dir/src/Gamefield.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Gamefield.cpp" -o CMakeFiles/game.dir/src/Gamefield.cpp.s
 
 CMakeFiles/game.dir/src/Hand.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Hand.cpp.o: /home/awes0me/Documents/study/lb1\ OOP/src/Hand.cpp
+CMakeFiles/game.dir/src/Hand.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Hand.cpp
 CMakeFiles/game.dir/src/Hand.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.dir/src/Hand.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Hand.cpp.o -MF CMakeFiles/game.dir/src/Hand.cpp.o.d -o CMakeFiles/game.dir/src/Hand.cpp.o -c "/home/awes0me/Documents/study/lb1 OOP/src/Hand.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.dir/src/Hand.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Hand.cpp.o -MF CMakeFiles/game.dir/src/Hand.cpp.o.d -o CMakeFiles/game.dir/src/Hand.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Hand.cpp"
 
 CMakeFiles/game.dir/src/Hand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Hand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/lb1 OOP/src/Hand.cpp" > CMakeFiles/game.dir/src/Hand.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Hand.cpp" > CMakeFiles/game.dir/src/Hand.cpp.i
 
 CMakeFiles/game.dir/src/Hand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Hand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/lb1 OOP/src/Hand.cpp" -o CMakeFiles/game.dir/src/Hand.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Hand.cpp" -o CMakeFiles/game.dir/src/Hand.cpp.s
 
 CMakeFiles/game.dir/src/Lightning_bolt.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Lightning_bolt.cpp.o: /home/awes0me/Documents/study/lb1\ OOP/src/Lightning_bolt.cpp
+CMakeFiles/game.dir/src/Lightning_bolt.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Lightning_bolt.cpp
 CMakeFiles/game.dir/src/Lightning_bolt.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.dir/src/Lightning_bolt.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Lightning_bolt.cpp.o -MF CMakeFiles/game.dir/src/Lightning_bolt.cpp.o.d -o CMakeFiles/game.dir/src/Lightning_bolt.cpp.o -c "/home/awes0me/Documents/study/lb1 OOP/src/Lightning_bolt.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.dir/src/Lightning_bolt.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Lightning_bolt.cpp.o -MF CMakeFiles/game.dir/src/Lightning_bolt.cpp.o.d -o CMakeFiles/game.dir/src/Lightning_bolt.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Lightning_bolt.cpp"
 
 CMakeFiles/game.dir/src/Lightning_bolt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Lightning_bolt.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/lb1 OOP/src/Lightning_bolt.cpp" > CMakeFiles/game.dir/src/Lightning_bolt.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Lightning_bolt.cpp" > CMakeFiles/game.dir/src/Lightning_bolt.cpp.i
 
 CMakeFiles/game.dir/src/Lightning_bolt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Lightning_bolt.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/lb1 OOP/src/Lightning_bolt.cpp" -o CMakeFiles/game.dir/src/Lightning_bolt.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Lightning_bolt.cpp" -o CMakeFiles/game.dir/src/Lightning_bolt.cpp.s
 
 CMakeFiles/game.dir/src/Player.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Player.cpp.o: /home/awes0me/Documents/study/lb1\ OOP/src/Player.cpp
+CMakeFiles/game.dir/src/Player.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Player.cpp
 CMakeFiles/game.dir/src/Player.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/game.dir/src/Player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Player.cpp.o -MF CMakeFiles/game.dir/src/Player.cpp.o.d -o CMakeFiles/game.dir/src/Player.cpp.o -c "/home/awes0me/Documents/study/lb1 OOP/src/Player.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/game.dir/src/Player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Player.cpp.o -MF CMakeFiles/game.dir/src/Player.cpp.o.d -o CMakeFiles/game.dir/src/Player.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Player.cpp"
 
 CMakeFiles/game.dir/src/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/lb1 OOP/src/Player.cpp" > CMakeFiles/game.dir/src/Player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Player.cpp" > CMakeFiles/game.dir/src/Player.cpp.i
 
 CMakeFiles/game.dir/src/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/lb1 OOP/src/Player.cpp" -o CMakeFiles/game.dir/src/Player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Player.cpp" -o CMakeFiles/game.dir/src/Player.cpp.s
+
+CMakeFiles/game.dir/src/SaveSystem.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/SaveSystem.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/SaveSystem.cpp
+CMakeFiles/game.dir/src/SaveSystem.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/game.dir/src/SaveSystem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/SaveSystem.cpp.o -MF CMakeFiles/game.dir/src/SaveSystem.cpp.o.d -o CMakeFiles/game.dir/src/SaveSystem.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/SaveSystem.cpp"
+
+CMakeFiles/game.dir/src/SaveSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/SaveSystem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/SaveSystem.cpp" > CMakeFiles/game.dir/src/SaveSystem.cpp.i
+
+CMakeFiles/game.dir/src/SaveSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/SaveSystem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/SaveSystem.cpp" -o CMakeFiles/game.dir/src/SaveSystem.cpp.s
 
 CMakeFiles/game.dir/src/Tower.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Tower.cpp.o: /home/awes0me/Documents/study/lb1\ OOP/src/Tower.cpp
+CMakeFiles/game.dir/src/Tower.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Tower.cpp
 CMakeFiles/game.dir/src/Tower.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/game.dir/src/Tower.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Tower.cpp.o -MF CMakeFiles/game.dir/src/Tower.cpp.o.d -o CMakeFiles/game.dir/src/Tower.cpp.o -c "/home/awes0me/Documents/study/lb1 OOP/src/Tower.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/game.dir/src/Tower.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Tower.cpp.o -MF CMakeFiles/game.dir/src/Tower.cpp.o.d -o CMakeFiles/game.dir/src/Tower.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Tower.cpp"
 
 CMakeFiles/game.dir/src/Tower.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Tower.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/lb1 OOP/src/Tower.cpp" > CMakeFiles/game.dir/src/Tower.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Tower.cpp" > CMakeFiles/game.dir/src/Tower.cpp.i
 
 CMakeFiles/game.dir/src/Tower.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Tower.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/lb1 OOP/src/Tower.cpp" -o CMakeFiles/game.dir/src/Tower.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Tower.cpp" -o CMakeFiles/game.dir/src/Tower.cpp.s
 
 CMakeFiles/game.dir/src/Trap.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Trap.cpp.o: /home/awes0me/Documents/study/lb1\ OOP/src/Trap.cpp
+CMakeFiles/game.dir/src/Trap.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Trap.cpp
 CMakeFiles/game.dir/src/Trap.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/game.dir/src/Trap.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Trap.cpp.o -MF CMakeFiles/game.dir/src/Trap.cpp.o.d -o CMakeFiles/game.dir/src/Trap.cpp.o -c "/home/awes0me/Documents/study/lb1 OOP/src/Trap.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/game.dir/src/Trap.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Trap.cpp.o -MF CMakeFiles/game.dir/src/Trap.cpp.o.d -o CMakeFiles/game.dir/src/Trap.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Trap.cpp"
 
 CMakeFiles/game.dir/src/Trap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Trap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/lb1 OOP/src/Trap.cpp" > CMakeFiles/game.dir/src/Trap.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Trap.cpp" > CMakeFiles/game.dir/src/Trap.cpp.i
 
 CMakeFiles/game.dir/src/Trap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Trap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/lb1 OOP/src/Trap.cpp" -o CMakeFiles/game.dir/src/Trap.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/Trap.cpp" -o CMakeFiles/game.dir/src/Trap.cpp.s
 
 CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/main.cpp.o: /home/awes0me/Documents/study/lb1\ OOP/src/main.cpp
+CMakeFiles/game.dir/src/main.cpp.o: /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/main.cpp
 CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/main.cpp.o -MF CMakeFiles/game.dir/src/main.cpp.o.d -o CMakeFiles/game.dir/src/main.cpp.o -c "/home/awes0me/Documents/study/lb1 OOP/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/main.cpp.o -MF CMakeFiles/game.dir/src/main.cpp.o.d -o CMakeFiles/game.dir/src/main.cpp.o -c "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/main.cpp"
 
 CMakeFiles/game.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/lb1 OOP/src/main.cpp" > CMakeFiles/game.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/main.cpp" > CMakeFiles/game.dir/src/main.cpp.i
 
 CMakeFiles/game.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/lb1 OOP/src/main.cpp" -o CMakeFiles/game.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/awes0me/Documents/study/oop_game/lb1 OOP/src/main.cpp" -o CMakeFiles/game.dir/src/main.cpp.s
 
 # Object files for target game
 game_OBJECTS = \
@@ -248,6 +262,7 @@ game_OBJECTS = \
 "CMakeFiles/game.dir/src/Hand.cpp.o" \
 "CMakeFiles/game.dir/src/Lightning_bolt.cpp.o" \
 "CMakeFiles/game.dir/src/Player.cpp.o" \
+"CMakeFiles/game.dir/src/SaveSystem.cpp.o" \
 "CMakeFiles/game.dir/src/Tower.cpp.o" \
 "CMakeFiles/game.dir/src/Trap.cpp.o" \
 "CMakeFiles/game.dir/src/main.cpp.o"
@@ -264,6 +279,7 @@ game: CMakeFiles/game.dir/src/Gamefield.cpp.o
 game: CMakeFiles/game.dir/src/Hand.cpp.o
 game: CMakeFiles/game.dir/src/Lightning_bolt.cpp.o
 game: CMakeFiles/game.dir/src/Player.cpp.o
+game: CMakeFiles/game.dir/src/SaveSystem.cpp.o
 game: CMakeFiles/game.dir/src/Tower.cpp.o
 game: CMakeFiles/game.dir/src/Trap.cpp.o
 game: CMakeFiles/game.dir/src/main.cpp.o
@@ -272,7 +288,7 @@ game: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.6.1
 game: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.6.1
 game: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.6.1
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -284,6 +300,6 @@ CMakeFiles/game.dir/clean:
 .PHONY : CMakeFiles/game.dir/clean
 
 CMakeFiles/game.dir/depend:
-	cd "/home/awes0me/Documents/study/lb1 OOP/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/awes0me/Documents/study/lb1 OOP" "/home/awes0me/Documents/study/lb1 OOP" "/home/awes0me/Documents/study/lb1 OOP/build" "/home/awes0me/Documents/study/lb1 OOP/build" "/home/awes0me/Documents/study/lb1 OOP/build/CMakeFiles/game.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/awes0me/Documents/study/oop_game/lb1 OOP/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/awes0me/Documents/study/oop_game/lb1 OOP" "/home/awes0me/Documents/study/oop_game/lb1 OOP" "/home/awes0me/Documents/study/oop_game/lb1 OOP/build" "/home/awes0me/Documents/study/oop_game/lb1 OOP/build" "/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles/game.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/game.dir/depend
 
