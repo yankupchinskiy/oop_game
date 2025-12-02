@@ -17,13 +17,8 @@ int main() {
 
     while (game.running()) {
 
-        
-
-        // Обновление состояния игры
         game.update();
         
-
-        // Отрисовка текущего состояния игры
         game.render();
     }
 

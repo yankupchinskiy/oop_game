@@ -51,6 +51,7 @@ private:
     void handleEnemies();
     void handleTowers();
     void handlePlayerDeath();
+    void cleanup();
 
     // State checks
     bool checkVictory();          

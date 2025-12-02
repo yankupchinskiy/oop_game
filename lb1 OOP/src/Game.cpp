@@ -7,11 +7,13 @@
 #include <fstream>
 
 // Private functions
+
 void Game::initVariables(){
     this->window = nullptr;
     this->state = GameState::IN_GAME;
     this->turn = TurnState::PLAYER;
 }
+
 
 void Game::initWindow() {
     this->videoMode.width = gamefield.get_leng() * cellSize;
@@ -26,7 +28,9 @@ void Game::initWindow() {
     this->window->setFramerateLimit(60);
 }
 
+
 // Constructors and Destructors
+
 Game::Game()
     : gamefield(10, 10)
 {
@@ -34,6 +38,7 @@ Game::Game()
     this->initWindow();
     this->initEntities(currentLevel);
 }
+
 
 Game::Game(int width, int length)
     : gamefield(width, length)
@@ -48,12 +53,15 @@ Game::~Game(){
 }
 
 // accessors
+
 const bool Game::running() const
 {
     return this->window && this->window->isOpen();
 }
 
+
 // Functions
+
 void Game::initEntities(int level) {
 
     for (int y = 0; y < gamefield.get_width(); ++y) {
@@ -103,13 +111,14 @@ void Game::initEntities(int level) {
 }
 
 
-
 // Helper
+
 bool Game::isAdjacent(int ax, int ay, int bx, int by) {
     int dx = std::abs(ax - bx);
     int dy = std::abs(ay - by);
     return (dx + dy) == 1; 
 }
+
 
 void Game::update(){
     this->PollEvents();
@@ -215,6 +224,7 @@ void Game::render() {
     window->display();
 }
 
+
 void Game::PollEvents(){
     while (this->window->pollEvent(this->ev)){
         switch(this->ev.type){
@@ -230,6 +240,7 @@ void Game::PollEvents(){
         }
     }  
 }
+
 
 void Game::updateTurn() {
     switch (this->turn) {
@@ -249,8 +260,7 @@ void Game::updateTurn() {
                 enemies.end()
             );
             this->handlePlayerDeath();
-
-
+            if (state == GameState::GAME_OVER) return;
             break;
 
 
@@ -258,7 +268,7 @@ void Game::updateTurn() {
             this->handleTowers();
             this->turn = TurnState::PLAYER;
             this->handlePlayerDeath();
-
+            if (state == GameState::GAME_OVER) return;
             break;
 
         default:
@@ -266,7 +276,10 @@ void Game::updateTurn() {
     }
 }
 
+
 void Game::handleEnemies() {
+    if(playerDeathHandled)
+        return;
     for (auto& eptr : enemies) {
         Enemy* e = eptr.get();
         if (!e) continue;
@@ -289,6 +302,7 @@ void Game::handleEnemies() {
             player.get_damaged(dmg);
             continue;
         }
+        
 
 
         std::string dir;
@@ -308,6 +322,8 @@ void Game::handleEnemies() {
 
 
 void Game::handleTowers() {
+    if(playerDeathHandled)
+    return;
     for (auto& tptr : towers) {
         TeslaTower* t = tptr.get();
         if (!t) continue;
@@ -341,7 +357,6 @@ void Game::handleTowers() {
 }
 
 
-
 bool Game::checkVictory() {
     if (playerDeathHandled || state == GameState::GAME_OVER)
     return false;
@@ -354,7 +369,6 @@ bool Game::checkVictory() {
 
     return !anyAlive;
 }
-
 
 
 void Game::handlePlayerDeath() {
@@ -380,6 +394,7 @@ void Game::handlePlayerDeath() {
         }
     }
 }
+
 
 void Game::SaveGame(const std::string& filename) {
     std::ofstream file(filename);
@@ -420,6 +435,7 @@ void Game::SaveGame(const std::string& filename) {
     file.close();
     std::cout << "Game saved to " << filename << "\n";
 }
+
 
 void Game::LoadGame(const std::string& filename) {
     std::ifstream file(filename);
@@ -483,8 +499,7 @@ void Game::LoadGame(const std::string& filename) {
 
 
 
-
-// Остальное (заглушки)
+/// Для 4ой лабы
 void Game::showMainMenu(){}
 void Game::handleGameOver(){}
 void Game::startNewGame(){}

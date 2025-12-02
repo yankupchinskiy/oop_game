@@ -28,7 +28,7 @@ void Lightning_bolt::cast(const std::string direction, Gamefield* gf, int x, int
         cy += dy;
 
         Cell* cell = gf->getCell(cx, cy);
-        if (!cell) break; // вышли за поле
+        if (!cell) break; 
 
         if (cell->is_occupied()) {
             Entity* e = cell->is_occupied_by();
