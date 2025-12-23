@@ -1,9 +1,9 @@
 CMakeFiles/game.dir/src/Player.cpp.o: \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Player.cpp \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/Player.cpp \
  /usr/include/stdc-predef.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Player.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Entity.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Cell.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Player.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Entity.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Cell.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -153,8 +153,8 @@ CMakeFiles/game.dir/src/Player.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Constants.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Gamefield.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Constants.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Gamefield.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
@@ -243,8 +243,8 @@ CMakeFiles/game.dir/src/Player.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Enemy.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Spell.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Enemy.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Spell.h \
  /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
@@ -259,8 +259,8 @@ CMakeFiles/game.dir/src/Player.cpp.o: \
  /usr/include/c++/13/pstl/glue_memory_defs.h /usr/include/c++/13/stack \
  /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
  /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/bits/stl_stack.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Hand.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/SpellFactory.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Lightning_bolt.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Firewave.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Trap.h
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Hand.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/SpellFactory.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Lightning_bolt.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Firewave.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Trap.h

@@ -5,12 +5,25 @@
 #include <SFML/Window.hpp>
 #include <SFML/Audio.hpp>
 
+#include <sstream>
+
 #include "Gamefield.h"
 #include "Enemy.h"
 #include "Player.h"
 #include "Cell.h"
 #include "Tower.h"
-#include "SaveSystem.h"
+#include "Command.h"
+
+struct SaveData {
+    int width, height;
+    int px, py, php;
+
+    struct EnemyData { int x,y,hp,dmg; };
+    struct TowerData { int x,y,hp,dmg,range; };
+
+    std::vector<EnemyData> enemies;
+    std::vector<TowerData> towers;
+};
 
 class Game {
 private:
@@ -66,8 +79,10 @@ private:
     void startNewGame();
 
     // Saving
+    uint32_t calculateChecksum(std::ostringstream& ss);
     void SaveGame(const std::string& filename);
     void LoadGame(const std::string& filename);
+    
 
     // Helpers
     bool isAdjacent(int ax, int ay, int bx, int by);

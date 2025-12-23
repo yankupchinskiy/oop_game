@@ -1,7 +1,6 @@
 CMakeFiles/game.dir/src/Game.cpp.o: \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Game.cpp \
- /usr/include/stdc-predef.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Game.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/Game.cpp /usr/include/stdc-predef.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Game.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -252,16 +251,17 @@ CMakeFiles/game.dir/src/Game.cpp.o: \
  /usr/include/SFML/Audio/SoundFileFactory.hpp \
  /usr/include/SFML/Audio/SoundFileFactory.inl \
  /usr/include/SFML/Audio/SoundFileReader.hpp \
- /usr/include/SFML/Audio/SoundFileWriter.hpp \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Gamefield.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Enemy.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Entity.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Cell.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Constants.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Player.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Spell.h \
+ /usr/include/SFML/Audio/SoundFileWriter.hpp /usr/include/c++/13/sstream \
+ /usr/include/c++/13/istream /usr/include/c++/13/bits/istream.tcc \
+ /usr/include/c++/13/bits/sstream.tcc \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Gamefield.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Enemy.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Entity.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Cell.h \
+ /usr/include/c++/13/iostream \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Constants.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Player.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Spell.h \
  /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
@@ -276,14 +276,14 @@ CMakeFiles/game.dir/src/Game.cpp.o: \
  /usr/include/c++/13/pstl/glue_memory_defs.h /usr/include/c++/13/stack \
  /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
  /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/bits/stl_stack.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Tower.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Lightning_bolt.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Tower.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Lightning_bolt.h \
  /usr/include/c++/13/unordered_set \
  /usr/include/c++/13/bits/unordered_set.h \
  /usr/include/c++/13/bits/hashtable.h \
  /usr/include/c++/13/bits/hashtable_policy.h \
  /usr/include/c++/13/bits/enable_special_members.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/SaveSystem.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Command.h \
  /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

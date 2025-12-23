@@ -1,7 +1,7 @@
 CMakeFiles/game.dir/src/Gamefield.cpp.o: \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Gamefield.cpp \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/Gamefield.cpp \
  /usr/include/stdc-predef.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Gamefield.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Gamefield.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -52,7 +52,7 @@ CMakeFiles/game.dir/src/Gamefield.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Cell.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Cell.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/iosfwd \
  /usr/include/c++/13/bits/stringfwd.h /usr/include/c++/13/bits/postypes.h \
@@ -155,7 +155,7 @@ CMakeFiles/game.dir/src/Gamefield.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Entity.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Entity.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -240,4 +240,4 @@ CMakeFiles/game.dir/src/Gamefield.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Constants.h
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Constants.h

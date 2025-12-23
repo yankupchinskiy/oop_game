@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/awes0me/Documents/study/oop_game/lb1 OOP"
+CMAKE_SOURCE_DIR = "/home/aks0/oop/oop_game/lb1 OOP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/awes0me/Documents/study/oop_game/lb1 OOP/build"
+CMAKE_BINARY_DIR = "/home/aks0/oop/oop_game/lb1 OOP/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" "/home/awes0me/Documents/study/oop_game/lb1 OOP/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aks0/oop/oop_game/lb1 OOP/build/CMakeFiles" "/home/aks0/oop/oop_game/lb1 OOP/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aks0/oop/oop_game/lb1 OOP/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,30 @@ src/Cell.s: src/Cell.cpp.s
 src/Cell.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Cell.cpp.s
 .PHONY : src/Cell.cpp.s
+
+src/Command.o: src/Command.cpp.o
+.PHONY : src/Command.o
+
+# target to build an object file
+src/Command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Command.cpp.o
+.PHONY : src/Command.cpp.o
+
+src/Command.i: src/Command.cpp.i
+.PHONY : src/Command.i
+
+# target to preprocess a source file
+src/Command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Command.cpp.i
+.PHONY : src/Command.cpp.i
+
+src/Command.s: src/Command.cpp.s
+.PHONY : src/Command.s
+
+# target to generate assembly for a file
+src/Command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Command.cpp.s
+.PHONY : src/Command.cpp.s
 
 src/Enemy.o: src/Enemy.cpp.o
 .PHONY : src/Enemy.o
@@ -345,30 +369,6 @@ src/Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Player.cpp.s
 .PHONY : src/Player.cpp.s
 
-src/SaveSystem.o: src/SaveSystem.cpp.o
-.PHONY : src/SaveSystem.o
-
-# target to build an object file
-src/SaveSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/SaveSystem.cpp.o
-.PHONY : src/SaveSystem.cpp.o
-
-src/SaveSystem.i: src/SaveSystem.cpp.i
-.PHONY : src/SaveSystem.i
-
-# target to preprocess a source file
-src/SaveSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/SaveSystem.cpp.i
-.PHONY : src/SaveSystem.cpp.i
-
-src/SaveSystem.s: src/SaveSystem.cpp.s
-.PHONY : src/SaveSystem.s
-
-# target to generate assembly for a file
-src/SaveSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/SaveSystem.cpp.s
-.PHONY : src/SaveSystem.cpp.s
-
 src/Tower.o: src/Tower.cpp.o
 .PHONY : src/Tower.o
 
@@ -453,6 +453,9 @@ help:
 	@echo "... src/Cell.o"
 	@echo "... src/Cell.i"
 	@echo "... src/Cell.s"
+	@echo "... src/Command.o"
+	@echo "... src/Command.i"
+	@echo "... src/Command.s"
 	@echo "... src/Enemy.o"
 	@echo "... src/Enemy.i"
 	@echo "... src/Enemy.s"
@@ -477,9 +480,6 @@ help:
 	@echo "... src/Player.o"
 	@echo "... src/Player.i"
 	@echo "... src/Player.s"
-	@echo "... src/SaveSystem.o"
-	@echo "... src/SaveSystem.i"
-	@echo "... src/SaveSystem.s"
 	@echo "... src/Tower.o"
 	@echo "... src/Tower.i"
 	@echo "... src/Tower.s"

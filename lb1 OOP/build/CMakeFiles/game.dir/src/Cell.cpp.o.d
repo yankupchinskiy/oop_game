@@ -1,7 +1,6 @@
 CMakeFiles/game.dir/src/Cell.cpp.o: \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/Cell.cpp \
- /usr/include/stdc-predef.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Cell.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/Cell.cpp /usr/include/stdc-predef.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Cell.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -151,8 +150,8 @@ CMakeFiles/game.dir/src/Cell.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Entity.h \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Gamefield.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Entity.h \
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Gamefield.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
@@ -241,4 +240,4 @@ CMakeFiles/game.dir/src/Cell.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/awes0me/Documents/study/oop_game/lb1\ OOP/src/../include/Constants.h
+ /home/aks0/oop/oop_game/lb1\ OOP/src/../include/Constants.h

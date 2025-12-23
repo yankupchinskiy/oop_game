@@ -1,3 +1,3 @@
-/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles/game.dir
-/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles/edit_cache.dir
-/home/awes0me/Documents/study/oop_game/lb1 OOP/build/CMakeFiles/rebuild_cache.dir
+/home/aks0/oop/oop_game/lb1 OOP/build/CMakeFiles/game.dir
+/home/aks0/oop/oop_game/lb1 OOP/build/CMakeFiles/edit_cache.dir
+/home/aks0/oop/oop_game/lb1 OOP/build/CMakeFiles/rebuild_cache.dir
